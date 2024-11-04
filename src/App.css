@@ -1,6 +1,9 @@
+html {
+  background-color: bisque;
+}
+
 #root {
   width: 100vw;
-  height: 100vh;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -10,4 +13,8 @@
 .navbar {
   margin-bottom: 40px;
   background-color: white;
+}
+
+.resume {
+  width: 1000px;
 }

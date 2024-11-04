@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
     <Navbar expand="lg" className="navbar">
       <Container>
-        <Navbar.Brand href="/">Courtney Mazeika</Navbar.Brand>
+        <Navbar.Brand href="/">Peter Farrow</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
