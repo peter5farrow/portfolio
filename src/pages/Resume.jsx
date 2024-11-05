@@ -1,13 +1,13 @@
 import PdfViewer from "../components/pdfViewer";
-import pdf from "../assets/resume.pdf";
 import pdfpng from "../assets/resume.png";
+import pdf from "../assets/PFarrowDevResumeNov24.pdf";
 
 export default function Resume() {
   return (
     <>
-      {/* <PdfViewer url={pdf} /> */}
-      <h1>Here's my resume woooo</h1>
-      <img src={pdfpng} alt="" className="resume"></img>
+      <h1 className="header">Resum&eacute;</h1>
+      <PdfViewer url={pdf} />
+      {/* <img src={pdfpng} alt="" className="resume"></img> */}
     </>
   );
 }

@@ -10,11 +10,30 @@ html {
   background-color: bisque;
 }
 
+#navBrand {
+  font-size: 35px;
+}
+
 .navbar {
-  margin-bottom: 40px;
-  background-color: white;
+  width: 100%;
+  margin-bottom: 32px;
+  font-size: 24px;
+}
+
+#navContainer .container {
+  margin: 0;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-align: end;
 }
 
 .resume {
   width: 1000px;
+}
+
+.header {
+  margin-bottom: 35px;
 }
