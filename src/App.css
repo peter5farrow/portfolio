@@ -10,30 +10,18 @@ html {
   background-color: bisque;
 }
 
-#navBrand {
-  font-size: 35px;
-}
-
-.navbar {
-  width: 100%;
-  margin-bottom: 32px;
-  font-size: 24px;
-}
-
-#navContainer .container {
-  margin: 0;
-  max-width: 100%;
-  justify-content: space-between;
-}
-
-.nav-link {
-  text-align: end;
-}
-
-.resume {
-  width: 1000px;
-}
-
 .header {
   margin-bottom: 35px;
+}
+
+#navBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5vw 5vh 5vw;
+}
+
+#homeButton {
+  display: flex;
+  justify-content: start;
+  width: 60vw;
 }
