@@ -10,7 +10,15 @@ export default function NavButton({ page }) {
   if (page === "home") {
     return (
       <div id="homeButton">
-        <a href="/">Peter Farrow</a>
+        <a
+          style={{
+            color: "black",
+            textDecoration: "none",
+          }}
+          href="/"
+        >
+          Peter Farrow
+        </a>
       </div>
     );
   }

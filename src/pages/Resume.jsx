@@ -1,6 +1,5 @@
-import PdfViewer from "../components/pdfViewer";
-import pdfpng from "../assets/resume.png";
-import pdf from "../assets/PFarrowDevResumeNov24.pdf";
+import PdfViewer from "../components/PdfViewer";
+import pdf from "../assets/Peter Farrow Resume.pdf";
 
 export default function Resume() {
   return (

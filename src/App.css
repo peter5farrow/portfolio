@@ -14,14 +14,144 @@ html {
   margin-bottom: 35px;
 }
 
-#navBar {
+/* #navBar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0 5vw 5vh 5vw;
+}
+
+.nav-button {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1150px) {
+  .nav-button {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .nav-button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 900px) {
 }
 
 #homeButton {
   display: flex;
   justify-content: start;
-  width: 60vw;
+  align-items: center;
+  width: 55vw;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 1150px) {
+  #homeButton {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  #homeButton {
+    font-size: 1.5rem;
+  }
+} */
+
+/* Navbar Styling */
+.navbar {
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.navbar-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 45px;
+}
+
+/* Navbar links styling */
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #000;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.nav-links li:hover a {
+  color: #f87159;
+}
+
+/* Hamburger menu styles */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  margin: 4px;
+  background-color: #000;
+  transition: transform 0.3s ease;
+}
+
+.bar.open {
+  transform: translateY(11px) rotate(45deg);
+}
+
+.bar.open:nth-child(2) {
+  opacity: 0;
+}
+
+.bar.open:nth-child(3) {
+  transform: translateY(-11px) rotate(-45deg);
+}
+
+/* Media Query for small screens */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 10px 0;
+  }
+
+  .nav-links a {
+    color: bisque;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: flex;
+  }
 }
