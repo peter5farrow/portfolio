@@ -95,7 +95,15 @@ html {
 }
 
 .nav-links li:hover a {
-  color: #f87159;
+  color: #bd5d38;
+}
+
+#homeButton a {
+  color: #000;
+}
+
+#homeButton:hover a {
+  color: #bd5d38;
 }
 
 /* Hamburger menu styles */

@@ -12,7 +12,6 @@ export default function NavButton({ page }) {
       <div id="homeButton">
         <a
           style={{
-            color: "black",
             textDecoration: "none",
           }}
           href="/"
