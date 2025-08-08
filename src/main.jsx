@@ -10,7 +10,7 @@ import App from "./App.jsx";
 import "bootstrap/dist/css/bootstrap.css";
 import Home from "./pages/Home.jsx";
 import Projects from "./pages/Projects.jsx";
-import AboutMe from "./pages/AboutMe.jsx";
+import ContactMe from "./pages/ContactMe.jsx";
 import Resume from "./pages/Resume.jsx";
 
 const router = createBrowserRouter(
@@ -18,7 +18,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<App />}>
       <Route index element={<Home />} />
       <Route path="/projects" element={<Projects />} />
-      <Route path="/about-me" element={<AboutMe />} />
+      <Route path="/contact-me" element={<ContactMe />} />
       <Route path="/resume" element={<Resume />} />
     </Route>
   )
