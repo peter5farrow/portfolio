@@ -10,16 +10,16 @@ import App from "./App.jsx";
 import "bootstrap/dist/css/bootstrap.css";
 import Home from "./pages/Home.jsx";
 import Projects from "./pages/Projects.jsx";
-import ContactMe from "./pages/ContactMe.jsx";
 import Resume from "./pages/Resume.jsx";
+import Contact from "./pages/Contact.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<Home />} />
       <Route path="/projects" element={<Projects />} />
-      <Route path="/contact-me" element={<ContactMe />} />
       <Route path="/resume" element={<Resume />} />
+      <Route path="/contact" element={<Contact />} />
     </Route>
   )
 );

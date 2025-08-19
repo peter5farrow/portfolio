@@ -29,10 +29,10 @@ const Navbar = () => {
             <NavButton page="projects" />
           </li>
           <li>
-            <NavButton page="contact-me" />
+            <NavButton page="resume" />
           </li>
           <li>
-            <NavButton page="resume" />
+            <NavButton page="contact" />
           </li>
         </ul>
       </div>

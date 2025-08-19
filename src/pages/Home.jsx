@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <h1 className="header">Hello.</h1>
       <img src={headshot} alt="headshot" height="450vh" width="auto" />
-      <p>My name is Peter, and I am a software engineer.</p>
+      <p>My name is Peter, and I am a web developer and software engineer.</p>
     </>
   );
 }
