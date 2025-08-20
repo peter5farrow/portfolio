@@ -5,9 +5,9 @@ import pdfpng from "../assets/Peter Farrow Resume.png";
 export default function Resume() {
   return (
     <>
-      <h1 className="header">Resum&eacute;</h1>
-      {/* <PdfViewer url={pdf} /> */}
-      <img src={pdfpng} alt="" className="resume" width="75%"></img>
+      <h1 className="header">Resume</h1>
+      <PdfViewer url={pdf} />
+      {/* <img src={pdfpng} alt="" className="resume" width="75%"></img> */}
     </>
   );
 }

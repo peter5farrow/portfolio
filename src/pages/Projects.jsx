@@ -1,10 +1,11 @@
 export default function Projects() {
   return (
     <>
-      <h1 className="header">Here are my projects:</h1>
+      <h1 className="header">Projects</h1>
       <div className="text-body">
-        <h3>Maestro Playlist Creator</h3>
-        <p>detailsdetailsdetails</p>
+        <p>Tumble Tracker Gym Scheduling App</p>
+        <p>Maestro Playlist Creator</p>
+        <p>Mangrove Manor Mystery Game</p>
       </div>
     </>
   );
